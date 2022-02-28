@@ -3,7 +3,7 @@ kind: Kustomization
 
 resources:
 # manifests
-- ./manifest/crds
-- ./manifest/spark-application-rbac
-- ./manifest/spark-operator-install
-- ./manifest/spark-operator-with-webhook-install
+- ../manifest/crds
+- ../manifest/spark-application-rbac
+- ../manifest/spark-operator-install
+- ../manifest/spark-operator-with-webhook-install
